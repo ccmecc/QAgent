@@ -1,0 +1,7 @@
+bottle==0.13.4
+deepspeed==0.17.1
+pydantic==2.10.6
+liger-kernel==0.6.0    #Save memory and alleviate OOM
+uvicorn
+fastapi
+
