@@ -2,6 +2,13 @@
 
   <h2 align="center"><strong>QAgent: A modular Search Agent with Interactive Query Understanding</strong></h2>
 
+<p align="center">
+
+  <a href="https://arxiv.org/pdf/2510.08383">
+    <img src="https://img.shields.io/badge/arXiv-2510.08383-b31b1b.svg" alt="arXiv">
+  </a>
+</p>
+
 <div align="center">
 </div>
 
@@ -144,7 +151,12 @@ We sincerely appreciate the efforts of these teams for their contributions to op
 
 ## Citation
 ```bibtex
-Details will be completed soon
+@article{jiang2025qagent,
+  title={QAgent: A modular Search Agent with Interactive Query Understanding},
+  author={Jiang, Yi and Shen, Lei and Niu, Lujie and Zhao, Sendong and Su, Wenbo and Zheng, Bo},
+  journal={arXiv preprint arXiv:2510.08383},
+  year={2025}
+}
 ```
 
 Thanks for your interest in our work!
